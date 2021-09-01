@@ -1,0 +1,82 @@
+.contacts {
+margin-top: 60px;
+
+  &__map {
+    @media (max-width: 600px) {
+      height: 400px!important;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 552px;
+
+    @media (max-width: 990px) {
+      height: 100%;
+    }
+  }
+
+  &__title {
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+
+    @media (max-width: 530px) {
+      font-size: 35px;
+    }
+  }
+
+  &__input {
+    border: none;
+    border-bottom: 3px solid #232323;
+    font-size: 20px;
+    line-height: 40px;
+    outline: none;
+    padding-top: 20px;
+    background: transparent;
+
+    &::placeholder {
+      color: #232323;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__btn {
+    color: #fff;
+    background-color: #C12222;
+    height: 50px;
+    padding: 0 43px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    -webkit-transform: translate(-5px, -10px);
+    transform: translate(-5px, -10px);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+
+    &:hover {
+      -webkit-transform: translate(-2px, -2px);
+      transform: translate(-2px, -2px);
+    }
+  }
+
+  &Btn__outline {
+    border: 1px solid #C12222;
+    height: 50px;
+    display: inline;
+    border-radius:  10px;
+    align-items: flex-end;
+
+    @media (max-width: 990px) {
+      margin-bottom: 100px;
+    }
+  }
+}

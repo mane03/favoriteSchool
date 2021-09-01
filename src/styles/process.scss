@@ -1,0 +1,36 @@
+.process {
+  
+  @media (max-width: 991px) {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &:hover .process__icon {
+    filter: grayscale(0);
+  }
+
+  &__subtitle {
+    padding-bottom: 80px;
+  }
+
+  &__icon {
+    width: 25%;
+    filter: grayscale(1);
+    transition: all 0.25s ease 0s;
+    will-change: filter;
+  }
+
+  &__title {
+    font-size: 25px;
+    letter-spacing: 0.065em;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+  }
+}

@@ -1,0 +1,74 @@
+.blog {
+
+  &__works {
+    width: 100%;
+    background-color: #C4C4C4;
+    height: 300px;
+    margin-top: 50px;
+  }
+
+  &__video {
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+  }
+
+  &__videoName {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      color: #000000;
+    }
+  }
+}
+
+
+.feedBach {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #C4C4C4;
+  padding: 50px;
+  margin-top: 100px;
+
+  &__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #666666;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+
+  &__quotes {
+      margin: 15px 0;
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  &__name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 0;
+  }
+}
